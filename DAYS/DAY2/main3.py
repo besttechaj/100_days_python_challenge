@@ -10,7 +10,7 @@ subtraction: -
 
 '''
 
-# addition 
+# addition
 print(2+4)
 
 # subtraction
