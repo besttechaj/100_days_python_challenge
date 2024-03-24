@@ -1,4 +1,4 @@
-# Randomisation
+# Randomization
 # To generate random integer, we have tom import "random module".
 
 # what is a module ?
