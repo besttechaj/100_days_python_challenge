@@ -16,7 +16,7 @@ print("hello" + " developers")
 
 print("java" + " " + "tutorials")
 
-#IndentationError: In python we should write the code from beginning of the line else it will throw you one indentation Error if you some space at the beginning of the code
+#IndentationError: In python we should write the code from beginning of the line else it will throw you one indentation Error if you give some space before the beginning of the code
 #__print('don\'t give any space')
 
 # code intelligence: make sure it is enabled. Code intelligence gives you autocomplete, as well as hints as you type.

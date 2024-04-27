@@ -4,7 +4,7 @@
 
 # In python we can't concat numbers with string, it will throw you one error
 
-'''for multi line comment use ' or ", but don't assign multiline to a variable else it will not be treated as comment
+'''for multi line comment use 3*' or 3*", but don't assign multiline to a variable else it will not be treated as comment
 
 name = len(input('Enter your name : \n'))
 print(type(name), name)
@@ -17,12 +17,14 @@ a = 79
 print(type(a))
 # let's convert the number to float
 b = float(a)
+print(b)
 print(type(b))
 
 # converting string to float then concatenating it with number
 print(1000 + float("999"))
+print(type(1000 + float("999")))
 
 # concatenation string conversion with another string conversion
-print(str(10000_00)+str(99_999))
+print(str(10000_00)+str(99_999))# string data type
 
 

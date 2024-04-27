@@ -8,26 +8,25 @@ print(round(8/3,2)) # 2.67 (Providing precision value(literal after decimal), he
 
 # floor division: "//", floor means rounding off to the lowest nearest whole number and also we got the integer datatype.
 
-print(8 // 3) # 2
-print(type(8 // 3)) # " int " datatype
-print(type (8 / 3) ) # " float " datatype
-print(type (4 / 2) ) # " float " datatype
+print(8 // 3) # 2  int data type
+print(type (8 / 3) ) #2.0 " float " datatype
+print(type (4 / 2) ) #2.0 " float " datatype
 
 
 # some shortcuts
 score = 0;
 
 score +=2
-print(score)
+print(score)# 2 
 
 score *=10
-print(score)
+print(score)# 20
 
 score /=2
-print(score)
+print(score) # 10.0
 
-score -=100
-print(score)
+score -=100 
+print(score) # -90.0
 
 ## F-String in python
 

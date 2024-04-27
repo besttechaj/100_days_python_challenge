@@ -18,14 +18,16 @@ data2 = 'welcome to python tutorials'
 print(data)
 print(data2)
 
-#mutliline string: Print the string in multiple lines as specified.
-a = """Lorem ipsum dolor sit amet,
+# multi_line string: Print the string in multiple lines as specified.
+a = """Lorem ipsum dolor sit am_et,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(a)
 
-print('123_456_789' + '1000_00')
+print('123_456_789' + '1000_00') 
+print(type('123_456_789' + '1000_00'))# string data type
+print(type(121)) # int data type
 
 # Python Numbers
 # There are three numeric types in Python:int, float, complex
