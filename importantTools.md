@@ -1,9 +1,15 @@
-# python code debug: Thonny ( download and install it to use )
+# Tools in python
 
-## thonny python: to debug your code
+## DEBUGGER
 
-## replit: It is an IDE to run your code
+python code debug: Thonny ( download and install it to use )
 
-## draw.io: To draw any flowchart
+## IDE
+
+replit: It is an IDE to run your code
+
+## FLOWCHART
+
+draw.io: To draw any flowchart
 
 ## reborg.ca : to perform logic based to function call. [ GAME ]

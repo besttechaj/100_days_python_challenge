@@ -20,7 +20,6 @@ def greet(name, temp, weather):
 greet("ajay",35, outside_weather)
 
 print('')
-print('')
 
 ## Position vs keyword arguments
 
@@ -31,3 +30,12 @@ def greet_with(name, location):
 greet_with(location="mount fuji", name="angela")
 
 ## paint calc
+
+h=int(input('Enter the height: '))
+w=int(input('Enter the width: '))
+
+def paintCalc(height, width, coverage):
+  cansRequired=(height*width)/coverage
+  print(f'The total number of cans required to cover the wall is "{cansRequired}"')
+
+paintCalc(width=w, height=h, coverage=5)

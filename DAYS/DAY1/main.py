@@ -5,19 +5,21 @@ print('hello world')
 print("this is lesson 1")
 print("this is 'python' tutorial")
 print(' this is "python" tutorial')
+
 # to acknowledge the written content as a string, we can use the escape character \"
 print("hello coder this is day-1 of \"python\" tutorial")
 
 # to print multiple lines in a single print statement, we can use \n
-print("hello coder\nthis is day-1 of \"python\" tutorial")
+print("hello coder\n this is day-1 of \"python\" tutorial")
 
 # string concatenation
-print("hello" + " developers")
+print("shri" + " ram")
 
-print("java" + " " + "tutorials")
+print("hare" + " " + "krishna")
 
-#IndentationError: In python we should write the code from beginning of the line else it will throw you one indentation Error if you give some space before the beginning of the code
+# IndentationError: In python we should write the code from beginning of the line else it will throw you one indentation Error if you give some space before the beginning of the code
 #__print('don\'t give any space')
+print('don\'t give any space')
 
 # code intelligence: make sure it is enabled. Code intelligence gives you autocomplete, as well as hints as you type.
 
