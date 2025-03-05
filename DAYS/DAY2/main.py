@@ -15,8 +15,6 @@ print("Hello"[0])
 
 data = "welcome to the programming world"
 data2 = 'welcome to python tutorials'
-print(data)
-print(data2)
 
 # multi_line string: Print the string in multiple lines as specified.
 a = """Lorem ipsum dolor sit am_et,
@@ -25,8 +23,7 @@ sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(a)
 
-print('123_456_789' + '1000_00') 
-print(type('123_456_789' + '1000_00'))# string data type
+print('123_456_789' + '1000_00')# 123_456_7891000_00
 print(type(121)) # int data type
 
 # Python Numbers
@@ -37,6 +34,7 @@ print(123_456_789 + 1000_00)
 
 # Float: Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
 print(3.14159)
+print(type(3.14)) # float class
 
 # Boolean: Boolean values are either True or False.
 
