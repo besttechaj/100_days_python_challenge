@@ -45,3 +45,9 @@ isWinning = True
 
 print(f"your current score is {result}, your height is {height}, you are winning is {isWinning}")
 
+a, b = 5, 10
+print(f"Sum of {a} and {b} is {f'{a + b}'}") # not recommended, extra conversion to a string
+print(f"Sum of {a} and {b} is {a+b}") # right, recommended since it is easier and no extra conversion.
+
+import sys
+print(sys.version)
