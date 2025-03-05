@@ -1,26 +1,28 @@
-# Lists
+
+#? Lists: A list in Python is an ordered, mutable (changeable) collection that can hold different data types.
+
 # list : offset
 # list : Append
 
-## In python, List is a data structure where you can organize and store any datatype.
+# In python, List is a data structure where you can organize and store any datatype.
 
-## If we want to store some group of data which have some sort of connection between them.
+# If we want to store some group of data which have some sort of connection between them.
 
-## Lists are used to store multiple items in a single variable.
+# Lists are used to store multiple items in a single variable.
 
-## Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+# Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
 
-## syntax: [element1, element2, element3,....], Here the element can be of any data type.
+# syntax: [element1, element2, element3,....], Here the element can be of any data type.
 
-## List follow index data structure hence they are store in order.
+# List follow index data structure hence they are store in order.
 
-## offset: distance between two memory location is known as offset. In the below example.. rose has 0 offset from the beginning of the list, lilly has 1 offset from the beginning of the list, and sunflower has 3 offset from the beginning of the list.
+# offset: distance between two memory location is known as offset. In the below example.. rose has 0 offset from the beginning of the list, lilly has 1 offset from the beginning of the list, and sunflower has 3 offset from the beginning of the list.
 
 flowers = ["rose", "lily", "sunflower"]
 print(flowers)
 print(type(flowers))# list
 
-#* To fetch the element from the list using offset or index
+#* To fetch the element from the list using offset
 print(flowers[2])
 
 #* Index error: list index out of range, if the index doesn't exist
@@ -31,9 +33,7 @@ print(flowers[-1])
 
 #* Updating the list element
 flowers[-1] = "marigold"
-
 print(flowers)
-
 
 #* append(): adding a new element in the existing list
 # "append" will add single element at a time at the end of the list
@@ -42,12 +42,42 @@ flowers.append('sunflower')
 print(flowers)
 
 
-#* extend() to add a new list/ multiple items as an elements inside existing list
+#* extend() to add a new list to an existing list
 # manipulate the original list
 flower2 = ['carnation','jasmine','daisy']
 flowers.extend(flower2)
-
 print(flowers)
+
+print('----------------------------------')
+
+# ways to remove items
+fruits = ['sugarcane','mango','aaaa','bbbb','ccc','papaya']
+fruits.append("banana")
+fruits.insert(0,'papaya')
+print(fruits)
+fruits.remove('aaaa')
+fruits.pop(3)
+del fruits[3]
+print(fruits)
+
+# sort in asc
+fruits.sort()
+print(fruits)
+
+# print index with values
+for index,val in enumerate(fruits):
+  print(index, val)
+
+
+# count -> occurrence of a value
+print(fruits.count('papaya'))
+
+# slicing -> to get a portion
+print(fruits[0:2])
+print(fruits[:2])
+print(fruits[1:])
+
+
 '''
 The list data type has some more methods. Here are all of the methods of list objects:
 

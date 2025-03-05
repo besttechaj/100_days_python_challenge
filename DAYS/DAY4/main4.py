@@ -1,11 +1,12 @@
 import random
 
 # friend names
-friend_names = "vishal, prashant, ajay, roshini";
+friend_names = "vishal, prashant, ajay, roshini"; #string data
 
 # splitting the string into array using string's built-in split() method
 # split() : takes one separator
-friends = friend_names.split(', ');
+friends = friend_names.split(',');
+print(friends)
 
 total_length = len(friends)
 
