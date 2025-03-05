@@ -1,8 +1,8 @@
 # love calculator
 
 # taking the inout from the user and converting them to lower case
-person1 = input('Enter teh first person name: ').lower()
-person2 = input('Enter teh second person name: ').lower()
+person1 = input('Enter first\'s person name: ').lower()
+person2 = input('Enter second\'s person name:').lower()
 
 combined_names = person1 + person2
 print(combined_names)
