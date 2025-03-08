@@ -1,6 +1,6 @@
 # Function in python
 
-## What is a function ? 
+## What is a function ?
 # It is a block of code which is used to perform some particular task.
 # Function can take arguments
 # We can call one function inside another function
